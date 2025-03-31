@@ -1,0 +1,6 @@
+export const darkTheme = {
+  background: "#1A1A1A",
+  text: "#FFFFFF",
+  secondaryText: "#AAAAAA",
+  accent: "#FFD600",
+};
