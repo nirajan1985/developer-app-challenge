@@ -46,7 +46,8 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#121212",
     padding: 16,
-    paddingTop: 60,
+    paddingTop: 30,
+    marginBottom: 20,
     top: 20,
   },
   sectionHeader: {
@@ -81,7 +82,7 @@ const styles = StyleSheet.create({
   },
   mapButton: {
     position: "absolute",
-    top: 50,
+    top: 40,
     right: 16,
     backgroundColor: "#FFD600",
     paddingVertical: 8,
