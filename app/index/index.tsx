@@ -55,8 +55,8 @@ export default function HomeScreen() {
               latitude: parseFloat(salon.coordinates.latitude),
               longitude: parseFloat(salon.coordinates.longitude),
             }}
-            title={salon.name}
-            description={salon.postalPlace}
+            title={`Salon name: ${salon.name}`}
+            description={salon.address + ", " + salon.postalPlace}
           >
             <View style={styles.customMarker}></View>
           </Marker>
