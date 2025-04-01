@@ -28,7 +28,6 @@ export default function HomeScreen() {
 
       <MapView
         customMapStyle={darkMapStyle}
-        provider="google"
         style={styles.map}
         region={
           location
